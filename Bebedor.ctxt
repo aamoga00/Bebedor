@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=nombreBebedor
+comment0.target=Bebedor(java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Bebedor\r\n
+comment1.params=copa
+comment1.target=void\ beberCopa(Cubata)
+comment1.text=\r\n\ Bebeder\ se\ toma\ una\ copa\r\n
+comment2.params=
+comment2.target=void\ nivelAlcoholSangre()
+comment2.text=\r\n\ Muestra\ por\ pantalla\ el\ nivel\ de\ Alcohol\ en\ Sangre\r\n
+numComments=3
