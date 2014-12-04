@@ -46,5 +46,21 @@ public class Bebedor
    {
        System.out.println("El nivel de alcohol en sangre se encuentra actualmente en: " + nivelAlcoholSangre);
    }
-    
+   /**
+    * Metodo para preguntar al bebedor. 
+    */ 
+   public void preguntasBebedor(String pregunta)
+   {
+   int caracteresPregunta = pregunta.length();
+   if(caracteresPregunta % 2 == 0)
+   {
+       System.out.println("Si");
+   }
+   else
+   {
+       System.out.println("No");
+   }
+   
+   
+   }
 }
