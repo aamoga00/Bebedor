@@ -51,16 +51,21 @@ public class Bebedor
     */ 
    public void preguntasBebedor(String pregunta)
    {
-   int caracteresPregunta = pregunta.length();
-   if(caracteresPregunta % 2 == 0)
-   {
-       System.out.println("Si");
-   }
-   else
-   {
-       System.out.println("No");
-   }
-   
-   
+       if(nivelAlcoholSangre >= limiteAlcohol || pregunta.contains(nombreBebedor))
+       {
+           System.out.println(pregunta.toUpperCase()+ "!!!!!!!!!!!!!!!!");
+       }   
+       else
+       {
+           int caracteresPregunta = pregunta.length();
+           if(caracteresPregunta % 2 == 0)
+           {
+               System.out.println("Si");
+           }
+           else
+           {    
+               System.out.println("No");
+           }
+       }
    }
 }
